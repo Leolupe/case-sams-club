@@ -13,7 +13,7 @@
 
       - A base final consiste em uma base de 2 colunas e 150 linhas (15 itens para cada um dos 10), onde a primeira coluna é o item referência do top 10 e a segunda coluna o item relacionado à ela.
 
-- **Código:**
+- **Código:** https://github.com/Leolupe/case-sams-club/blob/main/analytics.ipynb
 - **Dashboard:** https://public.tableau.com/views/samsclub_OnePage/OnePage?:language=pt-BR&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
 
 ## Data Science
@@ -35,7 +35,7 @@
 
 - No relatório, é possível cada departamento explorar as combinações mais atrativas de produtos e a métrica que ilustre a importância da associação.
 
-- **Código:**
+- **Código:** https://github.com/Leolupe/case-sams-club/blob/main/product_association.py
 - **Relatório:** https://public.tableau.com/views/samsclub_Analytics/Analytics?:language=pt-BR&publish=yes&:sid=&:display_count=n&:origin=viz_share_link
 
 ## Airflow DAG
@@ -45,6 +45,6 @@
 - Foi parametrizado a data da execução e com isso a extração d-3
 - Foram configuradas as rotinas da query Q1 e a execução do algoritmo de ML
 
-- **Código:**
+- **Código:** https://github.com/Leolupe/case-sams-club/blob/main/dag.py
 - **Solução item b:**
   - Para gravar a saída do algoritmo ML em uma tabela do BigQuery, poderíamos adicionar nova tarefa __BigQueryOperator_ após a tarefa _PythonOperator_, para carregar os dados resultantes do script para uma tabela no BigQuery.
